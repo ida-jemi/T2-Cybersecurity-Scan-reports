@@ -83,6 +83,12 @@ nmap -sV 192.168.56.101
 sudo nmap -O 192.168.56.101
 ```
 
+---
+
+<img width="752" height="645" alt="Screenshot 2026-04-13 231718" src="https://github.com/user-attachments/assets/07dcf841-d207-4d98-b899-ed1528520bbc" />
+
+---
+
 ## 🔹 Full Scan
 
 ```bash
@@ -171,6 +177,8 @@ ftp.request.command == "USER" || ftp.request.command == "PASS"
 * HTTP traffic is unencrypted
 * DNS queries visible
 
+<img width="1847" height="868" alt="Screenshot 2026-04-17 145035" src="https://github.com/user-attachments/assets/7ac87534-6562-4a66-a7cc-a84d12ba9445" />
+
 ---
 
 ## 🔎 Analysis
@@ -188,6 +196,12 @@ ftp.request.command == "USER" || ftp.request.command == "PASS"
 sudo hping3 -S --flood -p 80 192.168.56.101
 ```
 
+---
+
+<img width="1838" height="840" alt="Screenshot 2026-04-17 144255" src="https://github.com/user-attachments/assets/17d99bab-0a37-4572-8517-999f5dff19f6" />
+
+---
+
 ## 📊 Observation
 
 * Large number of SYN packets detected in Wireshark
@@ -202,6 +216,12 @@ sudo hping3 -S --flood -p 80 192.168.56.101
 ```bash
 sudo iptables -A INPUT -p tcp --dport 80 -j DROP
 ```
+
+---
+
+<img width="1047" height="738" alt="Screenshot 2026-04-17 150120" src="https://github.com/user-attachments/assets/246981fc-bd4e-40c5-984d-77e4ae700c26" />
+
+---
 
 ## 🔹 Allow SSH
 
@@ -221,20 +241,6 @@ sudo iptables -L
 * Improved system security
 
 ---
-
-# 📂 Repository Structure
-
-```
-Network-Security-Scanning/
-│── README.md
-│── scan_report.txt
-│── screenshots/
-│   ├── nmap_scan.png
-│   ├── openvas_results.png
-│   ├── wireshark_capture.png
-│── reports/
-│   ├── openvas_report.pdf
-```
 
 # 🧠 Key Learnings
 
