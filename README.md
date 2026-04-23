@@ -137,6 +137,8 @@ nmap -sS -sV -O -oN scan_report.txt 192.168.56.101
 | 🟡 Medium   | Weak configurations           |
 | 🟢 Low      | Informational findings        |
 
+<img width="1919" height="1021" alt="Screenshot 2026-04-23 161357" src="https://github.com/user-attachments/assets/1d14e238-fd5b-44a6-8864-7735f06dcb5e" />
+
 ---
 
 ## 🔎 Analysis
@@ -144,6 +146,8 @@ nmap -sS -sV -O -oN scan_report.txt 192.168.56.101
 * Critical vulnerabilities allow unauthorized access
 * High-risk services require immediate patching
 * Misconfigurations expose system to exploitation
+
+<img width="1919" height="1019" alt="Screenshot 2026-04-23 161422" src="https://github.com/user-attachments/assets/6bbf5ba0-24f0-4fe6-b73e-85454dfcb9e4" />
 
 ---
 
@@ -154,6 +158,10 @@ nmap -sS -sV -O -oN scan_report.txt 192.168.56.101
 * HTTP
 * FTP
 * DNS
+
+<img width="1918" height="913" alt="image" src="https://github.com/user-attachments/assets/ce0fb592-30db-4853-84e7-2b06e014485b" />
+
+---
 
 ## 🔹 Filters Used
 
